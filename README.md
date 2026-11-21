@@ -1,4 +1,4 @@
-# Pelvic Organ Prolapse Support Society, Website
+# Pelvic Organ Prolapse Support Society (POPS) Website
 
 A static, accessibility-first information and support site built with [Astro](https://astro.build).
 
@@ -108,13 +108,5 @@ If you ever add analytics to this site, **do not** track individual checkbox ans
 
 All copy comes from the approved content pack (`POPSS-Website-Content-Pack.docx`), drafted from Cleveland Clinic, peer-reviewed urogynecology journals, Cochrane reviews, and patient advocacy sources.
 
-The medical disclaimer appears in the footer of every page via the layout, don't remove it from `Base.astro`.
+The medical disclaimer appears in the footer of every page via the layout; don't remove it from `Base.astro`.
 
-## Before launch, outstanding items
-
-- [x] Contact route decided: the About page points people to the Facebook group
-- [ ] Confirm the Facebook group link is final. It now appears in three files: `Base.astro`, `community.astro`, and `about.astro`
-- [x] Favicon added (`public/favicon.svg`)
-- [ ] Add an Open Graph share image (`public/`). Group members will share links on Facebook, so the OG preview matters more than usual here
-- [ ] Add member stories if admins supply them with written permission
-- [ ] Admin sign-off on the disclaimer wording
